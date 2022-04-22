@@ -1,4 +1,4 @@
-shu immediate;
+shutdown immediate;
 startup mount;
 select name,open_mode ,database_role from v$database;
 alter database recover managed standby database disconnect from session;
